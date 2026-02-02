@@ -4,12 +4,13 @@ WORKDIR /app
 
 COPY . .
 
-# ✅ FIX: give execute permission to mvnw
+# Fix permission for mvnw
 RUN chmod +x mvnw
 
-# Build the application
+# Build the app
 RUN ./mvnw clean package -DskipTests
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "target/*.jar"]
+# ✅ FIX: use exact jar name (NO wildcard)
+CMD ["java", "-jar", "target/money-manager-backend-0.0.1-SNAPSHOT.jar"]
