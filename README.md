@@ -22,11 +22,6 @@ using <strong>JWT-based authentication</strong> and a clean layered architecture
     (<a href="https://github.com/Aayush315/money-manager-frontend" target="_blank">GitHub Repo</a>)
   </li>
 
-  <li>
-    <strong>Demo Video:</strong>
-    Complete working demo of the project
-    (<a href="https://drive.google.com/file/d/1-DH1qwvTOfX16ulIoL2k_I6Y72ZYNb85/view?usp=sharing" target="_blank">Watch Demo</a>)
-  </li>
 </ul>
 
 <hr/>
